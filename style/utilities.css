@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+.flex__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex_item{
+    padding: 0 1rem;
+ }
+ 
+.center-text{ text-align: center;}
+
+.skew{ 
+    background: #fc2e64;;
+    padding: .4rem 1rem;
+    transform: skew(-20deg);
+}
+
+.margin_bottom__4r{ margin-bottom: .5rem;}
+.margin_bottom__3r{ margin-bottom: 3rem;}
+.margin_bottom__2r{ margin-bottom: 2rem;}
+
+.margin_bt__2re{margin: 2rem 0;}
+.margin_bt__4re{margin: 4rem 0;}
+.small__margin{ margin: .8rem 0};

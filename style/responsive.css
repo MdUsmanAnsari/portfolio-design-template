@@ -1,0 +1,132 @@
+
+
+@media only screen and (min-width: 1400px) {
+    .pictures_grid{
+        grid-template-columns:repeat(auto-fit,500px);
+        grid-auto-rows: 300px;
+    }
+} 
+
+
+@media only screen and (min-width: 1400px) {
+    .pictures_grid{
+        grid-template-columns:repeat(auto-fit,700px);
+        grid-auto-rows: 400px;
+    }
+} 
+
+
+
+@media only screen and (max-width:900px) {
+
+    .logo{
+        top: 1rem;
+        left: 2rem;
+    }
+
+     header{
+        font-size: 60%;
+    } 
+
+    .developer__pic{
+        width: 300px;
+    }
+    
+}
+
+
+@media only screen and (max-width:640px){
+
+    .logo{
+        top: 1rem;
+        left: 2rem;
+    }
+    
+
+    .header__flex{
+        height: 70vh;
+        flex-flow: column-reverse;
+    }
+
+    .developer__pic{
+        z-index: -1;
+    }
+
+    .heading_container{
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    .primary_heading__1{
+        text-align: left;
+    }
+
+    .about_discrption{
+        padding: 0 2rem;
+    }
+
+   
+    .skills_polygon{
+        line-height: 78px;
+        width: 70px;
+        height: 78px;
+    }
+
+    
+    .skills_polygon::after{
+        width: 70px;
+        height: 75px;
+    }
+
+    .skills_polygon:hover{
+        cursor: pointer;
+         transform: translateY(-10px);
+    }
+
+    .photoshop__text{
+        font-size: 10px;
+    }
+
+    .project_more_text{
+      padding: 1rem;
+    }
+ 
+} 
+
+
+@media only screen and (max-width:320px){
+
+       
+    
+    .logo{
+        top: 16px;
+        left: 16px;
+    }
+
+    .logo__img{
+        width: 40px;
+    }
+
+    .project_heading{
+        top: 10px;
+        font-size: 100%;
+    }
+
+    .copyright__text{
+        font-size: 10px;
+        padding: 0 10px;
+    }
+
+    .pictures_grid{
+        grid-template-columns: repeat(auto-fit,316px); 
+    }
+
+    .pictures__items img{
+        height: 102%;
+    }
+
+
+
+}
+
+
