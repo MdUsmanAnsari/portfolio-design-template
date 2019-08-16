@@ -42,11 +42,6 @@
         left: 2rem;
     }
     
-    header{
-        height: 90vh;
-    }
-    
-
     .header__flex{
         height: 70vh;
         flex-flow: column-reverse;
